@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find smartsix_moveit_config)/launch/demo.launch"/>
+
+  <node name="fk_server" pkg="kinematics_service" type="fk_server" output="screen"/>
+
+</launch>
