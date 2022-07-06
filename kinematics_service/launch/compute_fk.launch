@@ -1,5 +1,0 @@
-<launch>
-
-  <node name="computefk" pkg="kinematics_service" type="computefk" output="screen"/>
-  
-</launch>

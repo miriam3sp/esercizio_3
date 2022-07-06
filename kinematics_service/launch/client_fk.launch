@@ -1,5 +1,0 @@
-<launch>
-
-  <node name="fk_client" pkg="kinematics_service" type="fk_client" output="screen"/>
-
-</launch>
