@@ -1,0 +1,10 @@
+#goal definition
+geometry_msgs/Pose pose
+---
+#result definition
+moveit_msgs/RobotState[] ik_solutions
+---
+#feedback
+moveit_msgs/RobotState ik_solution
+
+
