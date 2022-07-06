@@ -1,0 +1,9 @@
+<launch>
+
+   <include file="$(find smartsix_moveit_config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+  </include>
+
+  <node name="fk_server" pkg="kinematics_service" type="fk_server" output="screen"/>
+
+</launch>
